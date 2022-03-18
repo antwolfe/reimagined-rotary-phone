@@ -1,17 +1,50 @@
 body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-.header {
-
+.header-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
 }
 
-.footer {
+.header {
+  background-color: #1f2937;
+  color: white;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
 
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+
+.footer {
+  background-color: #1f2937;
+  font-size: 20px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  margin-top: auto;
+  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
 }
 
