@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,11 +11,11 @@ body {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
+  align-items: space-between;
   padding: 0px 80px;
 }
 
 .header-top {
-  /* background-color: #1f2937; */
   display: flex;
   justify-content: space-between;
 }
@@ -32,13 +33,22 @@ body {
 }
 
 .header-bottom {
-  /* background-color: #1f2937; */
-  font-size: 18px;
   color: #E5E7EB;
-  padding: 60px 60px 60px 0;
-  width: 500px;
+  padding: 60px 0px;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+/* HEADER FIXME: 
+    - fix grow/shrink values for main text vs rotary image
+    - add a bit of "always" space between image and main text? (even when shrunk)
+  
+     */
+.main-text {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  /* stop text from passing padding when shrinking */
 }
 
 #hero-main {
@@ -47,14 +57,30 @@ body {
   color: #f9faf8;
 }
 
+button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 5px 30px;
+  margin-top: 10px;
+}
 
+.sign-up {
+  display: flex;
+  align-self: flex-start;
+}
+
+#header-img {
+  margin-left: auto;
+}
 
 ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
 }
-
 
 .footer {
   background-color: #1f2937;
@@ -65,7 +91,6 @@ ul {
   align-items: center;
   padding: 32px;
   margin-top: auto;
-  
 }
 
 ul {
