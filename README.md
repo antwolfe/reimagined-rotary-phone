@@ -21,3 +21,6 @@ I've gotten a working version going now. The major areas are in place and I'm fe
 I learned today not to underestimate the power margins and padding and plan to look further into these during the next time I work on this page.
 
 Just a couple more things to fix and look into before I do another. How exciting!
+
+Update 3:
+I am leaving this first draft the way it is, I believe there will be a chance to fix the things I want to fix in a later lesson.
