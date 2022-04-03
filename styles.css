@@ -47,7 +47,6 @@ ul {
 }
 /* HEADER FIXME: 
     - fix grow/shrink values for main text vs rotary image
-    - add a bit of "always" space between image and main text? (even when shrunk)
     - margin to main text?
   
      */
@@ -55,7 +54,8 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* stop text from passing padding when shrinking */
+  width: 50%;
+
 }
 
 #hero-main {
